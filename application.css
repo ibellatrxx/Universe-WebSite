@@ -1,0 +1,118 @@
+body {
+    background: url(universo.jpg);
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, serif;
+    line-height: 1.5;
+}
+nav {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+}
+nav .logo {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform:uppercase;
+    color:#fff;
+}
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+nav ul li a {
+    line-height: 80px;
+    color:#fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    background: linear-gradient(#070c1886, #271430c7, #00000067);
+    border-radius: 6px;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.titulo {
+    text-align:center;
+    font-family: "Anton script=latin rev=3";
+    color: #fff;
+}
+.entrada {
+    width: 70%;
+    width: 800px;
+    margin: auto;
+    text-align:auto;
+    color: black; 
+    background: rgba(255, 255, 255, 0.5);
+    font-family: 'Lora', serif;
+    font-size: larger;
+    border-radius: 10px;
+}
+.sub {
+    width; 600px;
+    text-align; justify;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5rem;
+}
+#conteudo {
+    background-color: #1e111d9a;
+    padding: 20px;
+    width:900px;
+    margin: 10px auto 200px auto;
+    border-radius: 20px;
+    text-align: justify;
+}
+#conteudo h2, h3 {
+    margin-top: 0px;
+    color:#8b008b;
+    background: rgba(255, 255, 255, 0.623);
+    border-radius: 14px;
+    padding: 6px;
+    text-transform: none;
+}
+#conteudo article {
+    margin-bottom: 40px;
+    box-shadow: 5px 10px 10px #e0bcdd65;
+    paddinng:10px;
+    text-decoration: none;
+    border-radius: 14px;
+}
+#conteudo p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, serif;
+    text-indent: 40px;
+    line-height: 1.5rem;
+    color:white;
+}
+.menu {
+    line-height: 10px;
+    color:#fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+}
